@@ -1,0 +1,134 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #5cb3fb;
+  color: #212529;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+}
+
+.card h5 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+img{
+  height: 200px;
+  width: 400px;
+  margin: 2px 2px 2px 2px;
+}
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hero-section {
+  background-color: #e6f6f9; /* Light blue like your image */
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.hero-img {
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-description {
+  color: #333;
+  font-size: 1rem;
+}
+
+.hero2-section {
+  background-color: #5cb3fb; /* Light blue like your image */
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+. {
+  background-color: #5cb3fb; /* Light blue like your image */
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.hero2-img {
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  font-size: 0.9rem;
+  background-color: #195083;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+form .form-control {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button.btn {
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .nav-link {
+    font-size: 0.95rem;
+  }
+}
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#scrollTopBtn:hover {
+  background-color: #0056b3;
+}
